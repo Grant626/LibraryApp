@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AB95817292469C10059E781 /* SignInOrUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB95816292469C10059E781 /* SignInOrUpViewController.swift */; };
 		8B4C687E844398E936E4B4AB /* libPods-LibsterAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39847784D085EC446DC93525 /* libPods-LibsterAppUITests.a */; };
 		BE1F7A212919A16800555ED1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F7A202919A16800555ED1 /* TestViewController.swift */; };
 		BEACE22429199E14002171A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEACE22329199E14002171A6 /* AppDelegate.swift */; };
@@ -16,7 +17,6 @@
 		BEACE23029199E1E002171A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEACE22E29199E1E002171A6 /* LaunchScreen.storyboard */; };
 		BEACE23B29199E1F002171A6 /* LibsterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEACE23A29199E1F002171A6 /* LibsterAppTests.swift */; };
 		BEACE24629199E1F002171A6 /* LibsterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEACE24529199E1F002171A6 /* LibsterAppUITests.swift */; };
-		BEFA24242922FEB20039B780 /* SignInOrUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA24232922FEB20039B780 /* SignInOrUpViewController.swift */; };
 		BEFA24262923060B0039B780 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA24252923060B0039B780 /* SignInViewController.swift */; };
 		CBEAE57A2C7C8BF8C5962E62 /* libPods-LibsterAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C5FA0C457794D557C17CDE /* libPods-LibsterAppTests.a */; };
 		FF4D52B71D46034E6CFE853B /* Pods_LibsterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59595E4311B06CC4159FD6F /* Pods_LibsterApp.framework */; };
@@ -45,6 +45,7 @@
 		39D0D4F88262D504BF3CF024 /* Pods-LibsterAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibsterAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LibsterAppTests/Pods-LibsterAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F332F0650A3314D76B53325 /* Pods-LibsterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibsterApp.release.xcconfig"; path = "Target Support Files/Pods-LibsterApp/Pods-LibsterApp.release.xcconfig"; sourceTree = "<group>"; };
 		6EC69537B5D00C8BF0D61331 /* Pods-LibsterAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibsterAppTests.release.xcconfig"; path = "Target Support Files/Pods-LibsterAppTests/Pods-LibsterAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AB95816292469C10059E781 /* SignInOrUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOrUpViewController.swift; sourceTree = "<group>"; };
 		83E251FD8D1489A6AD97B7A1 /* Pods-LibsterAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibsterAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LibsterAppUITests/Pods-LibsterAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0C5FA0C457794D557C17CDE /* libPods-LibsterAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LibsterAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59595E4311B06CC4159FD6F /* Pods_LibsterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibsterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +63,6 @@
 		BEACE24129199E1F002171A6 /* LibsterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibsterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEACE24529199E1F002171A6 /* LibsterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibsterAppUITests.swift; sourceTree = "<group>"; };
 		BEACE24729199E1F002171A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEFA24232922FEB20039B780 /* SignInOrUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOrUpViewController.swift; sourceTree = "<group>"; };
 		BEFA24252923060B0039B780 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D6E693B15497F5A19F369253 /* Pods-LibsterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibsterApp.debug.xcconfig"; path = "Target Support Files/Pods-LibsterApp/Pods-LibsterApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,7 +140,7 @@
 				BEACE22E29199E1E002171A6 /* LaunchScreen.storyboard */,
 				BEACE23129199E1E002171A6 /* Info.plist */,
 				BE1F7A202919A16800555ED1 /* TestViewController.swift */,
-				BEFA24232922FEB20039B780 /* SignInOrUpViewController.swift */,
+				7AB95816292469C10059E781 /* SignInOrUpViewController.swift */,
 				BEFA24252923060B0039B780 /* SignInViewController.swift */,
 			);
 			path = LibsterApp;
@@ -397,9 +397,9 @@
 			files = (
 				BEACE22429199E14002171A6 /* AppDelegate.swift in Sources */,
 				BE1F7A212919A16800555ED1 /* TestViewController.swift in Sources */,
-				BEFA24242922FEB20039B780 /* SignInOrUpViewController.swift in Sources */,
 				BEFA24262923060B0039B780 /* SignInViewController.swift in Sources */,
 				BEACE22629199E14002171A6 /* SceneDelegate.swift in Sources */,
+				7AB95817292469C10059E781 /* SignInOrUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
